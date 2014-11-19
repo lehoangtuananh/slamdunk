@@ -114,7 +114,7 @@ function NAPF_parserLiverdoorNewPages()
             if (strpos($el -> plaintext, 'スラムダンクの続きを勝手に考えてみる') !== false){
                 $arr_title[] = $el -> plaintext;
                 $arr_url[] = $el -> href;
-                $arr_des[] = get_description_list($el -> href);
+                //$arr_des[] = get_description_list($el -> href);
             }
         }
     }
